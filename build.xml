@@ -5,8 +5,8 @@
    depends="zip, copy_to_destination, unzip"/>
 
    	<property name="project-name" value="${ant.project.name}" />
-   	<property name="folder-contain-zip" value="/vagrant/jobs/test/" />
-	<property name="folder-to-zip" value="/vagrant/jobs/test/workspace" />
+   	<property name="folder-contain-zip" value="/vagrant/jobs/test/workspace" />
+	<property name="folder-to-zip" value="/vagrant/jobs/test/workspace/Symfony" />
 	<property name="archives.destination" value="/var/www/" />
 
 	<property name="user" value="duyphan" />
